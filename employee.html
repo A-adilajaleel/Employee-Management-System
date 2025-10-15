@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management system</title>
+    <link rel="stylesheet" href="employee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+PL:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+       
+        <div class="text" id="text">
+
+        <input id="search" type="search" placeholder="Enter to search....">
+        <select class="select" id="select">
+            <option value="select">select</option>
+            <option value="doctor">doctor</option>
+            <option value="professor">porfessor</option>
+            <option value="model">model</option>
+            
+            <option value="ceo">ceo</option>
+            <option value="police">police</option>
+        </select>
+
+    </div>
+    <form id="form" action="">
+        <h1>EMPLOYEE  MANAGEMENT</h1>
+        <input id="namee" type="text" placeholder="Enter Full name">
+        <input id="job" type="text" placeholder="Enter Job">
+        <input id="salary"type="text" placeholder="Enter Salary">
+
+        <button type="submit" class="button">Add Employee</button>
+    </form>
+    <div  class="table">
+    <table id="table"border="1" width="500px" >
+       <tr>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Salary</th>
+        <th>Actions</th>
+       </tr>
+       
+    </table>
+    </div>
+    </div>
+    <script src="employee.js"></script>
+</body>
+</html>
